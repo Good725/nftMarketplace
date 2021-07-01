@@ -1,0 +1,86 @@
+.cards {
+  grid-row: 2/3;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+  margin-top: 5rem;
+  @supports (display: grid) {
+    display: grid;
+    backface-visibility: hidden;
+    grid-template-columns: minmax(8%, 1fr) minmax(30rem, 150rem) minmax(8%, 1fr);
+    align-items: start;
+    justify-content: center;
+  }
+}
+
+.card {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  column-gap: 1%;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  @media only screen and (max-width: 70.25em) {
+    grid-template-columns: repeat(4, minmax(25rem, 1fr));
+  }
+  @media only screen and (max-width: 35em) {
+    grid-template-columns: 1fr;
+  }
+  // grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+
+  &__item {
+    margin: 3rem 0;
+    cursor: pointer;
+    display: grid;
+    background: #fcfcfc;
+    width: 23.66rem;
+    height: 42rem;
+    z-index: 2;
+    @include respond(small-desktop) {
+      width: 25.35rem;
+      height: 45rem;
+    }
+
+    @include respond(tab-land) {
+      width: 26.47rem;
+      height: 47rem;
+    }
+
+    @include respond(tab-port) {
+      width: 28.16rem;
+      height: 50rem;
+    }
+    @include respond(phone) {
+      width: 30.98rem;
+      height: 55rem;
+    }
+
+    border-radius: 25px;
+    border: 2px solid rgb(209, 209, 209);
+    background-color: white;
+    box-shadow: 0 1rem 3rem rgb(189, 189, 189);
+
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    float: left;
+  }
+  &__count {
+    border-bottom-style: solid;
+    border-color: #9a9c9c;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 60px;
+    background-color: #fff;
+    color: #333;
+    justify-self: center;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 13px;
+  }
+}

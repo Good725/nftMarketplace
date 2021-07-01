@@ -1,0 +1,50 @@
+.wallet {
+  &__currency-selection {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 10rem;
+  }
+  &__currency-button {
+    background-color: transparent;
+    border: none;
+    font-weight: 800;
+    font-size: 2.8rem;
+    cursor: pointer;
+    color: #888;
+    &--active {
+      color: #333;
+    }
+  }
+  &__currency-section {
+    margin: 0 5rem;
+  }
+  &__balance-text {
+    font-size: 3.5rem;
+    color: #333;
+    transition: all 0.2s ease;
+  }
+  &__balance-subtext {
+    font-size: 2rem;
+    color: #666;
+    margin-bottom: 2rem !important;
+  }
+  &__button-section {
+    display: grid;
+    row-gap: 30%;
+  }
+  &__option-button {
+    width: 30rem;
+    height: 4rem;
+    font-weight: 600;
+    border-radius: 5rem;
+    border: 1px solid #5bb4f2;
+    background-color: transparent;
+    color: #5bb4f2;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    &:hover {
+      background-color: #5bb4f2;
+      color: #fff;
+    }
+  }
+}

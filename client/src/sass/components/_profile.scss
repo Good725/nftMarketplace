@@ -1,0 +1,225 @@
+.profile {
+  background-color: #fff;
+  width: 100%;
+  &__section-1 {
+    display: grid;
+    grid-template-columns:
+      5% minmax(max-content, 35%) minmax(5rem, 2%) minmax(max-content, 55%)
+      5%;
+    padding-top: 5rem;
+    border-bottom: 1px solid rgb(190, 184, 184);
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+    @include respond(tab-port) {
+      grid-template-columns:
+        5% 90%
+        5%;
+    }
+  }
+  &__verified-icon {
+    grid-column: 2/3;
+    margin-right: 8rem;
+    width: 2rem;
+    height: 2rem;
+    align-self: center;
+    @include respond(tab-port) {
+      grid-column: 1/2;
+      grid-row: 1/2;
+      justify-self: end;
+      margin-right: 2.2rem;
+    }
+
+    &--1 {
+      grid-column: 2/3;
+      margin-left: 1rem;
+      margin-right: 0;
+      @include respond(tab-port) {
+        margin-right: 0;
+        margin-left: 1rem;
+      }
+    }
+  }
+  &__image-section {
+    grid-column: 2/3;
+    grid-row: 1/6;
+    justify-self: center;
+    align-self: center;
+  }
+  &__image {
+    border-radius: 20rem;
+    width: 30rem;
+    height: 30rem;
+    object-fit: cover;
+  }
+  &__information {
+    grid-column: 4/5;
+    justify-content: start;
+    display: grid;
+    grid-template-columns: 100%;
+    @include respond(tab-port) {
+      grid-column: 2/3;
+      justify-items: center;
+    }
+  }
+  &__links-section {
+    grid-column: 2/4;
+    justify-content: center;
+    display: grid;
+    border-bottom: 1px solid rgb(207, 207, 207);
+  }
+  &__link {
+    grid-row: 1/2;
+    font-weight: 900;
+    color: #888;
+    padding: 1rem 2rem 0;
+    font-size: 1.8rem;
+    text-align: center;
+    &:hover {
+      color: #333;
+      border-bottom: 2px solid rgba(62, 149, 239, 255);
+    }
+    &--no-hover {
+      &:hover {
+        color: #888;
+        border-bottom: none;
+        cursor: auto;
+      }
+    }
+    &--active {
+      color: #333;
+      border-bottom: 2px solid rgba(62, 149, 239, 255);
+    }
+  }
+  &__name {
+    color: #333;
+    font-size: 4.3rem;
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+    padding: 2rem 4rem 2rem 0;
+    font-weight: 400;
+    margin-bottom: 0 !important;
+    @include respond(tab-port) {
+      text-align: center;
+    }
+
+    &--2 {
+      padding: 1rem 0;
+      width: 100%;
+      font-size: 2.8rem;
+      font-weight: 400;
+      @include respond(tab-port) {
+        padding: 2rem 0;
+      }
+      margin-bottom: 0 !important;
+    }
+  }
+  &__row-1 {
+    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    @include respond(tab-port) {
+      grid-template-columns: repeat(2, 20rem) 0rem;
+      column-gap: 1rem;
+    }
+  }
+  &__row-2 {
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(max-content, 15%));
+  }
+  &__row-3 {
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: max-content;
+  }
+  &__row-4 {
+    grid-row: 4/5;
+    display: grid;
+  }
+  &__row-5 {
+    grid-row: 5/6;
+    display: grid;
+  }
+  &__text {
+    font-size: 1.8rem;
+    max-width: 40%;
+    padding-top: 1rem;
+    justify-self: start;
+    @include respond(tab-port) {
+      text-align: center;
+      margin: 0 auto;
+      max-width: 85%;
+    }
+  }
+  &__row-2-text {
+    padding: 0 2rem 0 0;
+    @include respond(tab-port) {
+      padding: 0 2rem;
+    }
+    font-size: 2rem;
+  }
+  &__follow-button-section {
+    grid-row: 1/2;
+    grid-column: 3/4;
+    align-self: center;
+    max-width: 20rem;
+    @include respond(tab-port) {
+      grid-column: 2/3;
+
+      margin-left: 3.5rem;
+    }
+  }
+  &__follow-button {
+    // align-self: center;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 0.4rem 2.7rem;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.6rem;
+    background-color: rgba(62, 149, 239, 255);
+    &:hover {
+      color: #fff;
+    }
+    @include respond(tab-port) {
+      padding: 0.4rem 0;
+    }
+  }
+  &__edit-section {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    margin: 1rem auto;
+    border: 1px solid #333;
+  }
+  &__edit-button {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-self: end;
+
+    border: none;
+    color: #333;
+    @include respond(tab-port) {
+      padding: 1rem 2.2rem;
+    }
+  }
+  &__settings {
+    grid-column: 2/3;
+    margin-left: 2rem;
+
+    grid-row: 1/2;
+    justify-self: start;
+  }
+  &__settings-button {
+    width: 3rem;
+    height: 3rem;
+    fill: #333;
+  }
+}

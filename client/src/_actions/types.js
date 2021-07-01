@@ -1,0 +1,242 @@
+export const LOGIN_USER = 'login_user';
+export const REGISTER_USER = 'register_user';
+export const AUTH_USER = 'auth_user';
+export const LOGOUT_USER = 'logout_user';
+// resetting all infinite scrolling lists
+export const LOGOUT_INFINITE = 'LOGOUT_INFINITE';
+// resetting profile
+export const RESET_PROFILE = 'RESET_PROFILE';
+export const CHECK_PASSWORD = 'CHECK_PASSWORD';
+export const CHANGE_PASSWORD = 'CHANGE_PASSWORD';
+export const RESET_PASSWORD_CHANGE = 'RESET_PASSWORD_CHANGE';
+export const ADD_TO_SHOP_USER = 'add_to_shop_user';
+export const GET_SHOP_ITEMS_USER = 'get_shop_items_user';
+export const ADD_TO_CART_USER = 'add_to_cart_user';
+export const GET_CART_ITEMS_USER = 'get_cart_items_user';
+export const REMOVE_CART_ITEM_USER = 'remove_cart_item_user';
+export const ADD_TO_LINKS_USER = 'add_to_link_user';
+export const GET_LINKS_ITEMS_USER = 'get_link_items_user';
+export const REMOVE_LINKS_ITEM_USER = 'remove_link_item_user';
+export const ADD_COINS = 'add_coins';
+export const ADD_COINS_OTHER = 'add_coins_other';
+export const ADD_TO_MUSEUM = 'add_to_Museum';
+export const CHECK_USERNAME = 'check_username';
+export const UPDATE_USERNAME = 'update_username';
+export const UPDATE_FULLNAME = 'update_fullname';
+export const UPDATE_LOWERCASEFULLNAME = 'update_lowercasefullname';
+export const UPDATE_BIO = 'update_bio';
+export const UPDATE_IMAGE = 'update_image';
+export const UPDATE_CATEGORY = 'UPDATE_CATEGORY';
+export const UPDATE_DAILY_REWARD = 'update_daily_reward';
+export const UPDATE_SOLD = 'update_sold';
+export const UPDATE_MONEY = 'update_money';
+export const UPDATE_MINTED = 'update_minted';
+export const UPDATE_SALE_DEADLINE = 'UPDATE_SALE_DEADLINE';
+export const INCREMENT_SOLD = 'increment_sold';
+export const ADD_FOLLOWING = 'add_following';
+export const ADD_FOLLOWER = 'add_follower';
+export const REMOVE_FOLLOWING = 'remove_following';
+export const REMOVE_FOLLOWER = 'remove_follower';
+export const UPDATE_LEVEL = 'update_level';
+export const ADD_SUCCESSFUL_PURCHASE = 'add_successful_purchase';
+export const GET_CARD_OWNER = 'get_card_owner';
+
+export const GET_PRODUCTS = 'get_products';
+export const GET_PRODUCT_BY_CATEGORY = 'GET_PRODUCT_BY_CATEGORY';
+export const GET_SUGGESTED_PRODUCTS = 'GET_SUGGESTED_PRODUCTS';
+export const GET_PRODUCT_ITEM = 'GET_PRODUCT_ITEM';
+
+export const GET_USERS = 'GET_USERS';
+export const GET_SUGGESTED_USERS = 'GET_SUGGESTED_USERS';
+export const GET_PROFILE_USER = 'GET_PROFILE_USER';
+
+export const SET_SEARCH_STRING = 'set_search_string';
+export const SET_SEARCH_CATEGORY = 'SET_SEARCH_CATEGORY';
+export const ADD_TO_COLLECTION = 'ADD_TO_COLLECTION';
+
+/////// MARKET //////
+export const ADD_TO_MARKET = 'ADD_TO_MARKET';
+export const REMOVE_FROM_MARKET = 'REMOVE_FROM_MARKET';
+export const PURCHASE_FROM_MARKET = 'PURCHASE_FROM_MARKET';
+export const GET_MARKET_CARDS = 'GET_MARKET_CARDS';
+export const SET_PROFILE_SECTION = 'SET_PROFILE_SECTION';
+export const SET_MARKET_EDITION = 'SET_MARKET_EDITION';
+export const GET_MARKET_CARD_EDITIONS = 'GET_MARKET_CARD_EDITIONS';
+export const GET_MARKET_CARD_BY_CATEGORY = 'GET_MARKET_CARD_BY_CATEGORY';
+export const USERS_CARDS_IN_MARKET = 'USERS_CARDS_IN_MARKET';
+
+//////// PACKS///////////
+export const SET_CARD_INDEX = 'SET_CARD_INDEX';
+export const ADD_POTENTIAL_CARD = 'ADD_POTENTIAL_CARD';
+export const UPDATE_POTENTIAL_CARD = 'UPDATE_POTENTIAL_CARD';
+export const ADD_PACK = 'ADD_PACK';
+export const GET_PROFILE_SHOP_PACKS = 'GET_PROFILE_SHOP_PACKS';
+export const GET_PACK_CARDS = 'GET_PACK_CARDS';
+export const GET_PACK_INFO = 'GET_PACK_INFO';
+export const BUY_FROM_PACK = 'BUY_FROM_PACK';
+export const GET_PACKS = 'GET_PACKS';
+export const GET_PACK_BY_CATEGORY = 'GET_PACK_BY_CATEGORY';
+export const ADD_PACK_CARDS_TO_CART = 'ADD_PACK_CARDS_TO_CART';
+
+/////NAV BAR////
+export const SET_MENU_VIEW = 'SET_MENU_VIEW';
+
+// CREATOR AUCTION /////
+export const PLACE_INITIAL_PRODUCT_BID = 'PLACE_INITIAL_PRODUCT_BID';
+export const UPDATE_BID = 'UPDATE_BID';
+export const RESET_BID_SUCCESS = 'RESET_BID_SUCCESS';
+
+export const AUCTION_OVER = 'AUCTION_OVER';
+export const AUCTION_ITEMS_CART = 'AUCTION_ITEMS_CART';
+export const DELETE_AUCTION = 'DELETE_AUCTION';
+export const GET_ALL_AUCTIONS = 'GET_ALL_AUCTIONS';
+export const SET_AUCTION_FINISHED = 'SET_AUCTION_FINISHED';
+export const RETURN_BID_UPDATE_STATUS = 'RETURN_BID_UPDATE_STATUS';
+// MARKET AUCTION//
+export const PLACE_INITIAL_MARKET_BID = 'PLACE_INITIAL_MARKET_BID';
+export const RESET_MARKET_BID_SUCCESS = 'RESET_MARKET_BID_SUCCESS';
+export const UPDATE_MARKET_BID = 'UPDATE_MARKET_BID';
+export const MARKET_AUCTION_OVER = 'MARKET_AUCTION_OVER';
+export const DELETE_MARKET_AUCTION = 'DELETE_MARKET_AUCTION';
+export const MARKET_AUCTION_ITEMS_CART = 'MARKET_AUCTION_ITEMS_CART';
+export const RETURN_MARKET_BID_UPDATE_STATUS =
+  'RETURN_MARKET_BID_UPDATE_STATUS';
+export const GET_ALL_MARKET_AUCTIONS = 'GET_ALL_MARKET_AUCTIONS';
+export const SET_MARKET_AUCTION_FINISHED = 'SET_MARKET_AUCTION_FINISHED';
+
+// returns updatebid status to false so user can update
+// a secondary bid and the page will still reflect the new bid
+
+// WEB3
+export const WEB3_LOADED = 'WEB3_LOADED';
+export const WEB3_NETWORK_LOADED = 'WEB3_NETWORK_LOADED';
+export const WEB3_ACCOUNT_LOADED = 'WEB3_ACCOUNT_LOADED';
+export const WEB3_BALANCE_LOADED = 'WEB3_BALANCE_LOADED';
+export const GAS_PRICES_LOADED = 'GAS_PRICES_LOADED';
+export const DBILIA_TOKEN_LOADED = 'DBILIA_TOKEN_LOADED';
+export const MARKETPLACE_LOADED = 'MARKETPLACE_LOADED';
+export const MARKETPLACE_ADDRESS = 'MARKETPLACE_ADDRESS';
+
+// MARKET
+export const APPROVED_STATUS = 'APPROVED_STATUS';
+export const SET_APPROVED = 'SET_APPROVED';
+export const SET_SALE_WITH_ETH = 'SET_SALE_WITH_ETH';
+export const REMOVE_SET_SALE_WITH_ETH = 'REMOVE_SET_SALE_WITH_ETH';
+export const GET_TOKEN_PRICE_USD = 'GET_TOKEN_PRICE_USD';
+export const PURCHASE_WITH_ETH = 'PURCHASE_WITH_ETH';
+
+// DBILIA TOKEN
+export const MINT_WITH_ETH_LOADING = 'MINT_WITH_ETH_LOADING';
+export const MINT_WITH_ETH_LOADED = 'MINT_WITH_ETH_LOADED';
+export const IS_PRODUCT_EDITION_MINTED = 'IS_PRODUCT_EDITION_MINTED';
+export const GET_TOKEN_OWNERSHIP = 'GET_TOKEN_OWNERSHIP';
+export const GET_OWNER_OF = 'GET_OWNER_OF';
+export const GET_DBILIA_TRUST = 'GET_DBILIA_TRUST';
+
+// USER CLICKS ON A CARD THEY OWN //
+export const SET_USER_CARD = 'SET_USER_CARD';
+
+// GETTING USERS TRANSACTIONS
+export const GET_USER_TRANSACTIONS = 'GET_USER_TRANSACTIONS';
+
+// PAYMENTS
+export const ADD_PAYMENT = 'ADD_PAYMENT';
+export const GET_USER_PAYMENTS = 'GET_USER_PAYMENTS';
+
+/////// POPUPS  /////
+// opens up bid popup
+export const SET_BID_OPEN = 'SET_BID_OPEN';
+export const SET_MARKET_BID_OPEN = 'SET_MARKET_BID_OPEN';
+
+// opens list of editions to purchase
+export const SET_EDITIONS_OPEN = 'SET_EDITIONS_OPEN';
+
+// opens a list of users owned editions
+export const SET_OWNED_EDITIONS_OPEN = 'SET_OWNED_EDITIONS_OPEN';
+
+// opens up popup of users transactions
+export const SET_TRANSACTIONS_OPEN = 'SET_TRANSACTIONS_OPEN';
+// OPENING UP WITHDRAWAL POPUP
+export const SET_WITHDRAWAL = 'SET_WITHDRAWAL';
+// OPENING UP DEPOSIT POPUP
+export const SET_DEPOSIT = 'SET_DEPOSIT';
+
+// confirm popup
+export const SET_CONFIRM = 'SET_CONFIRM';
+
+// opens minting info popup
+export const SET_MINT_INFO = 'SET_MINT_INFO';
+
+// DEPOSIT WITHDRAWAL
+// CREATING WITHDRAWAL TRANSACTION
+export const SET_WITHDRAWAL_AMOUNT = 'SET_WITHDRAWAL_AMOUNT';
+// CREATING DEPOSIT TRANSACTION
+export const SET_DEPOSIT_AMOUNT = 'SET_DEPOSIT_AMOUNT';
+
+/////////// INFINITE//////
+
+// FEATURE INFINITE
+export const GET_FEATURED_PRODUCTS = 'GET_FEATURED_PRODUCTS';
+export const GET_FEATURED_PAGE = 'GET_FEATURED_PAGE';
+export const FEATURE_RENDER_COUNT = 'FEATURE_RENDER_COUNT';
+export const FEATURED_LOADING = 'FEATURED_LOADING';
+
+// FEED INFINITE
+export const FEED_LOADING = 'FEED_LOADING';
+export const GET_FEED_PRODUCTS = 'GET_FEED_PRODUCTS';
+export const GET_FEED_PAGE = 'GET_FEED_PAGE';
+export const FEED_RENDER_COUNT = 'FEED_RENDER_COUNT';
+
+// SHOP INFINITE
+export const SHOP_LOADING = 'SHOP_LOADING';
+export const GET_SHOP_PRODUCTS = 'GET_SHOP_PRODUCTS';
+export const GET_SHOP_PAGE = 'GET_SHOP_PAGE';
+export const SHOP_RENDER_COUNT = 'SHOP_RENDER_COUNT';
+export const RESET_SHOP = 'RESET_SHOP';
+
+// COLLECTION INFINITE
+export const COLLECTION_LOADING = 'COLLECTION_LOADING';
+export const GET_COLLECTION_PRODUCTS = 'GET_COLLECTION_PRODUCTS';
+export const GET_COLLECTION_PAGE = 'GET_COLLECTION_PAGE';
+export const COLLECTION_RENDER_COUNT = 'COLLECTION_RENDER_COUNT';
+export const RESET_COLLECTION = 'RESET_COLLECTION';
+
+// MARKET PAGE INFINITE
+export const MARKET_LOADING = 'MARKET_LOADING';
+export const GET_MARKET_PRODUCTS = 'GET_MARKET_PRODUCTS';
+export const GET_MARKET_PAGE = 'GET_MARKET_PAGE';
+export const MARKET_RENDER_COUNT = 'MARKET_RENDER_COUNT';
+
+// USERS CARDS FOR SALE INFINITE
+export const SALE_LOADING = 'SALE_LOADING';
+export const GET_SALE_PRODUCTS = 'GET_SALE_PRODUCTS';
+export const GET_SALE_PAGE = 'GET_SALE_PAGE';
+export const SALE_RENDER_COUNT = 'SALE_RENDER_COUNT';
+
+// SEARCH CARD PAGE INFINITE
+export const GET_SEARCH_CARD_PRODUCTS = 'GET_SEARCH_CARD_PRODUCTS';
+export const GET_SEARCH_CARD_PAGE = 'GET_SEARCH_CARD_PAGE';
+export const SEARCH_CARD_RENDER_COUNT = 'SEARCH_CARD_RENDER_COUNT';
+export const RESET_CARD_SEARCH = 'RESET_CARD_SEARCH';
+
+// SEARCH USER PAGE INFINITE
+export const GET_SEARCH_USER_PRODUCTS = 'GET_SEARCH_PRODUCTS';
+export const GET_SEARCH_USER_PAGE = 'GET_SEARCH_PAGE';
+export const SEARCH_USER_RENDER_COUNT = 'SEARCH_RENDER_COUNT';
+export const RESET_USER_SEARCH = 'RESET_USER_SEARCH';
+// TOUR///
+export const END_TOUR = 'END_TOUR';
+export const END_CREATE_TOUR = 'END_CREATE_TOUR';
+export const END_CARD_TOUR = 'END_CARD_TOUR';
+
+// TRACKS USERS PROGRESS IN EACH GUIDE
+export const INCREMENT_TOUR = 'INCREMENT_TOUR';
+export const INCREMENT_CREATE_TOUR = 'INCREMENT_CREATE_TOUR';
+export const INCREMENT_CARD_TOUR = 'INCREMENT_CARD_TOUR';
+export const ADD_FIRST_NFT = 'ADD_FIRST_NFT';
+
+// BOOLEAN ONLY ALLOWING TOUR STEP TO BE SET BY USERS PROGRESS UPON LOADING OF PAGE
+// AFTERWARDS BOOLEAN BECOMES FALSE AND USER CAN NAVIGATE BACK AN FORTH BETWEEN STEPS WITHOUT BEING RESET TO THEIR FURTHEST PROGRESS LEVEL
+export const TRACK_TOUR = 'TRACK_TOUR';
+export const TRACK_CREATE_TOUR = 'TRACK_CREATE_TOUR';
+export const TRACK_CARD_TOUR = 'TRACK_CARD_TOUR';

@@ -1,0 +1,14 @@
+.market {
+  display: grid;
+  margin-top: 8rem;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: minmax(8%, 1fr) minmax(30rem, 150rem) minmax(8%, 1fr);
+  &__title {
+    color: #333 !important;
+    font-size: 2.2rem !important;
+    justify-self: start !important;
+    padding-bottom: 3rem;
+    grid-column: 2/3;
+  }
+}

@@ -1,0 +1,281 @@
+@keyframes bannerFade {
+  0% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes rotateImage {
+  0% {
+    transform: rotate3d(0, 0, 0, 0deg);
+  }
+  12% {
+    transform: rotate3d(0.4 0.4, 0, 0deg);
+  }
+  24% {
+    transform: rotate3d(0.4, 0.4, 0, 180deg);
+  }
+  36% {
+    transform: rotate3d(0.4, 0.4, 0, 180deg);
+  }
+  49% {
+    transform: rotate3d(0.4, 0.4, 0, 180deg);
+  }
+  61% {
+    transform: rotate3d(0.4, 0.4, 0, 180deg);
+  }
+  74% {
+    transform: rotate3d(0.4, 0.4, 0, 180deg);
+  }
+  87% {
+    transform: rotate3d(0.4, 0.4, 0, 180deg);
+  }
+  100% {
+    transform: rotate3d(0.4, 0.4, 0, 360deg);
+  }
+}
+@keyframes rotateImage2 {
+  0% {
+    transform: rotate3d(0.4, 0.4, 0, 180deg);
+  }
+  12% {
+    transform: rotate3d(0.4 0.4, 0, 180deg);
+  }
+  24% {
+    transform: rotate3d(0.4, 0.4, 0, 360deg);
+  }
+  36% {
+    transform: rotate3d(0.4, 0.4, 0, 360deg);
+  }
+  49% {
+    transform: rotate3d(0.4, 0.4, 0, 540deg);
+  }
+  61% {
+    transform: rotate3d(0.4, 0.4, 0, 540deg);
+  }
+  74% {
+    transform: rotate3d(0.4, 0.4, 0, 540deg);
+  }
+  87% {
+    transform: rotate3d(0.4, 0.4, 0, 540deg);
+  }
+  99% {
+    transform: rotate3d(0.4, 0.4, 0, 540deg);
+  }
+  100% {
+    transform: rotate3d(0.4, 0.4, 0, 540deg);
+  }
+}
+@keyframes rotateImage3 {
+  0% {
+    transform: rotate3d(0.4, 0.4, 0, 180deg);
+  }
+  12% {
+    transform: rotate3d(0.4 0.4, 0, 180deg);
+  }
+  24% {
+    transform: rotate3d(0.4, 0.4, 0, 180deg);
+  }
+  36% {
+    transform: rotate3d(0.4, 0.4, 0, 180deg);
+  }
+  49% {
+    transform: rotate3d(0.4, 0.4, 0, 360deg);
+  }
+  61% {
+    transform: rotate3d(0.4, 0.4, 0, 360deg);
+  }
+  74% {
+    transform: rotate3d(0.4, 0.4, 0, 540deg);
+  }
+  87% {
+    transform: rotate3d(0.4, 0.4, 0, 540deg);
+  }
+  90% {
+    transform: rotate3d(0.4, 0.4, 0, 540deg);
+  }
+  95% {
+    transform: rotate3d(0.4, 0.4, 0, 540deg);
+  }
+  100% {
+    transform: rotate3d(0.4, 0.4, 0, 540deg);
+  }
+}
+@keyframes rotateImage4 {
+  0% {
+    transform: rotate3d(0.4, 0.4, 0, 180deg);
+  }
+  12% {
+    transform: rotate3d(0.4 0.4, 0, 180deg);
+  }
+  24% {
+    transform: rotate3d(0.4, 0.4, 0, 180deg);
+  }
+  36% {
+    transform: rotate3d(0.4, 0.4, 0, 180deg);
+  }
+  49% {
+    transform: rotate3d(0.4, 0.4, 0, 180deg);
+  }
+  61% {
+    transform: rotate3d(0.4, 0.4, 0, 180deg);
+  }
+  74% {
+    transform: rotate3d(0.4, 0.4, 0, 360deg);
+  }
+  87% {
+    transform: rotate3d(0.4, 0.4, 0, 360deg);
+  }
+  100% {
+    transform: rotate3d(0.4, 0.4, 0, 540deg);
+  }
+}
+@keyframes cloud {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(1.5rem);
+  }
+
+  75% {
+    transform: translateY(-1.5rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes headerFade {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes secondaryFade {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes left {
+  0% {
+    opacity: 0;
+    transform: translateX(-2rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes right {
+  0% {
+    opacity: 0;
+    transform: translateX(2rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes carouselHeader3Up {
+  0% {
+    opacity: 0;
+    transform: translateY(-4rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes carouselHeader1Up {
+  0% {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes carouselTagLineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes carouselButtonUp {
+  0% {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes pictureFade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes exit {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes exitUp {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+}
+
+// attributes section
+@keyframes inLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(9rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes inRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-9rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

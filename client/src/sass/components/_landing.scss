@@ -1,0 +1,11 @@
+.landing__container {
+  padding-bottom: 2rem;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: minmax(8%, 1fr) minmax(30rem, 150rem) minmax(8%, 1fr);
+  align-items: start;
+  justify-content: center;
+  @media only screen and (max-width: 30em) {
+    grid-template-columns: minmax(4%, 1fr) minmax(30rem, 150rem) minmax(4%, 1fr);
+  }
+}

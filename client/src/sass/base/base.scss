@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: #fff;
+  @include respond(small-desktop) {
+    font-size: 58%;
+  }
+  @include respond(tab-land) {
+    font-size: 56.25%;
+  }
+
+  @include respond(tab-port) {
+    font-size: 52%;
+  }
+  @include respond(phone) {
+    font-size: 47%;
+  }
+
+  @include respond(big-desktop) {
+    font-size: 63%;
+  }
+}
+
+ul {
+  list-style: none;
+}

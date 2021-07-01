@@ -1,0 +1,121 @@
+.upload-product {
+  display: grid;
+  margin: 3rem;
+  justify-items: center;
+  grid-template-columns: 1fr 80rem 1fr;
+  align-content: center;
+  &__header {
+    grid-column: 2/3;
+  }
+  &__description {
+    grid-column: 2/3;
+    justify-self: center;
+    text-align: center;
+    width: 70%;
+  }
+  &__image {
+    width: 18rem;
+    height: 30rem;
+    grid-row: 1/2;
+    align-self: center;
+  }
+  &__selection-section {
+    display: grid;
+    grid-template-columns: repeat(2, 40rem);
+    grid-column: 2/3;
+  }
+  &__pack-section {
+    display: grid;
+    grid-template-columns: repeat(2, min-content);
+    align-self: center;
+  }
+  &__pack-image {
+    width: 9rem;
+    height: 15rem;
+  }
+  &__section {
+    display: grid;
+    grid-column: 1/2;
+    width: 35rem;
+    border-radius: 5rem;
+    height: 48rem;
+    margin: 4rem;
+    cursor: pointer;
+    justify-items: center;
+    grid-template-rows: 70% 30%;
+    background-color: #d3ebfd;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      box-shadow: 0 1rem 2rem #ddeffc;
+      transform: scale(1.05);
+    }
+    &--2 {
+      grid-column: 2/3;
+    }
+  }
+  &__button {
+    width: 20rem;
+    height: 8rem;
+    border-radius: 1rem;
+    border: none;
+    background-image: linear-gradient(0deg, #1d77ff, #34aaff);
+    grid-row: 2/3;
+    color: #fff;
+    align-self: center;
+    cursor: pointer;
+    &:hover {
+      background-image: linear-gradient(0deg, #3483fa, #5fbcff);
+    }
+  }
+}
+
+.upload-card {
+  grid-column: 2/3;
+}
+
+.create-pack {
+  display: grid;
+  grid-template-columns: 1fr 80rem 1fr;
+  &__header {
+    grid-column: 2/3;
+    margin-top: 8rem;
+  }
+  &__title {
+    font-size: 2rem;
+    grid-column: 2/3;
+  }
+  &__explanation {
+    font-size: 1.7rem;
+    grid-column: 2/3;
+    margin-bottom: 4rem;
+  }
+  &__label {
+    grid-column: 2/3;
+    font-size: 1.4rem;
+  }
+  &__form {
+    grid-column: 2/3;
+  }
+  &__input {
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 2rem;
+    width: 20rem;
+    height: 3rem;
+    padding: 2rem;
+  }
+  &__button {
+    width: 9rem;
+    margin-top: 3rem;
+    height: 3rem;
+    border-radius: 1rem;
+    border: none;
+    background-image: linear-gradient(0deg, #1d77ff, #34aaff);
+    grid-row: 2/3;
+    color: #fff;
+    align-self: center;
+    cursor: pointer;
+    &:hover {
+      background-image: linear-gradient(0deg, #3483fa, #5fbcff);
+    }
+  }
+}
